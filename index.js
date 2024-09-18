@@ -70,10 +70,9 @@ class Game {
             this.players.player2.hand.push(card1, card2, ...this.warPile);
             this.players.player2.score++;
         } else {
-            console.log("Another tie in the war. Additional cards will be added to the war pile.");
-            this.warPile.push(card1, card2);
+            console.log("Tie in the war");
         }
-
+    }
 
     // Logic of war to ensure the game is played correctly
     playRound() {
