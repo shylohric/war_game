@@ -72,11 +72,8 @@ class Game {
         } else {
             console.log("Another tie in the war. Additional cards will be added to the war pile.");
             this.warPile.push(card1, card2);
-            // Handle additional war scenarios (not implemented in this case)
         }
 
-        this.warPile = []; 
-    }
 
     // Logic of war to ensure the game is played correctly
     playRound() {
